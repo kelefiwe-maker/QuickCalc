@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuickCalc — Fast. Simple. Reliable.</title>
+  <meta name="description" content="QuickCalc is a lightweight Android calculator designed for fast and simple everyday calculations.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f5ff;
+      color: #171324;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 24px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #ffffff;
+      border-bottom: 1px solid #e8e4f5;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: 800;
+      color: #6c35d9;
+    }
+
+    .version {
+      font-size: 14px;
+      color: #6f6a7c;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 90px 20px 70px;
+      background: linear-gradient(135deg, #f7f5ff, #ece5ff);
+    }
+
+    .icon {
+      width: 92px;
+      height: 92px;
+      margin: 0 auto 25px;
+      border-radius: 24px;
+      background: #6c35d9;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      font-weight: 700;
+      box-shadow: 0 15px 35px rgba(108, 53, 217, 0.25);
+    }
+
+    h1 {
+      font-size: clamp(42px, 9vw, 72px);
+      line-height: 1.05;
+      margin-bottom: 18px;
+    }
+
+    .tagline {
+      font-size: 21px;
+      color: #625d70;
+      max-width: 600px;
+      margin: 0 auto 32px;
+    }
+
+    .download {
+      display: inline-block;
+      background: #6c35d9;
+      color: white;
+      text-decoration: none;
+      padding: 16px 30px;
+      border-radius: 14px;
+      font-weight: 700;
+      font-size: 17px;
+      box-shadow: 0 10px 25px rgba(108, 53, 217, 0.25);
+    }
+
+    .download:hover {
+      background: #5725bc;
+    }
+
+    .small {
+      margin-top: 14px;
+      font-size: 13px;
+      color: #777181;
+    }
+
+    .features {
+      max-width: 1000px;
+      margin: auto;
+      padding: 70px 20px;
+    }
+
+    .features h2 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 20px;
+      border: 1px solid #e6e1f2;
+      box-shadow: 0 8px 25px rgba(35, 25, 65, 0.05);
+    }
+
+    .card h3 {
+      margin-bottom: 8px;
+      font-size: 19px;
+    }
+
+    .card p {
+      color: #6f697a;
+      font-size: 15px;
+    }
+
+    .about {
+      text-align: center;
+      padding: 65px 20px;
+      background: white;
+    }
+
+    .about h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+
+    .about p {
+      max-width: 650px;
+      margin: auto;
+      color: #686273;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: #777181;
+      font-size: 14px;
+      background: #f7f5ff;
+    }
+
+    footer a {
+      color: #6c35d9;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">QuickCalc</div>
+  <div class="version">Version 1.0</div>
+</header>
+
+<section class="hero">
+
+  <div class="icon">+</div>
+
+  <h1>QuickCalc</h1>
+
+  <p class="tagline">
+    Fast. Simple. Reliable.
+    <br>
+    A lightweight calculator for everyday calculations.
+  </p>
+
+  <a class="download"
+     href="https://github.com/kelefiwe-maker/QuickCalc/releases/download/v1.0/QuickCalc-release-signed.apk">
+    Download QuickCalc
+  </a>
+
+  <p class="small">Android • Version 1.0 • 1.88 MB</p>
+
+</section>
+
+<section class="features">
+
+  <h2>Everything you need</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>Fast Calculations</h3>
+      <p>Perform everyday calculations quickly with a clean and simple interface.</p>
+    </div>
+
+    <div class="card">
+      <h3>Calculation History</h3>
+      <p>Keep track of previous calculations whenever you need to check them again.</p>
+    </div>
+
+    <div class="card">
+      <h3>Light & Dark Mode</h3>
+      <p>Choose the appearance that works best for you.</p>
+    </div>
+
+    <div class="card">
+      <h3>Simple Settings</h3>
+      <p>Access useful app options without unnecessary complexity.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="about">
+
+  <h2>Built for simplicity</h2>
+
+  <p>
+    QuickCalc is designed to make everyday calculations straightforward,
+    fast and easy to use.
+  </p>
+
+</section>
+
+<footer>
+
+  <p>
+    © 2026 QuickCalc •
+    <a href="https://github.com/kelefiwe-maker/QuickCalc">
+      GitHub
+    </a>
+  </p>
+
+</footer>
+
+</body>
+    </html>
